@@ -1,0 +1,47 @@
+body{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.774),  rgba(0, 0, 0, 0.781)), 
+    url(img/fundo-cinema.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+
+.card{
+    transition: trasform 5s ease;
+}
+
+.card:hover{
+    border: 1px white solid;
+    transform: scale(1.025);
+}
+
+#trailer:hover{
+    text-decoration: underline;
+}
+
+.modal-backdrop.show{
+    opacity: 0;
+}
+
+.page.bg-transparent{
+    background-color: transparent;
+}
+
+.page-link {
+    background-color: transparent;
+    color:white
+}
+
+.page-link:hover{
+    color: black;
+    border: none;
+}
+
+.page-link.active {
+    background-color: white;
+    color:black;
+    border:none
+}
